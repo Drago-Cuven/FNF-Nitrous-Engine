@@ -1,0 +1,36 @@
+{
+  "format": "nitrobolt-target",
+  "version": 2,
+  "target": {
+    "assets": [],
+    "broadcasts": {},
+    "costumes": [
+      {
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "file": "assets/costume1-ecf94b71.svg",
+        "name": "costume1",
+        "rotationCenterX": 0,
+        "rotationCenterY": 0
+      }
+    ],
+    "currentCostume": 0,
+    "direction": 90,
+    "draggable": false,
+    "groups": {},
+    "id": "H3oU3+*(_8M2iz0KXA1G",
+    "isStage": false,
+    "layerOrder": 2,
+    "lists": {},
+    "name": "ExtSaver",
+    "rotationStyle": "all around",
+    "size": 100,
+    "sounds": [],
+    "tables": {},
+    "variables": {},
+    "visible": true,
+    "volume": 100,
+    "x": 36,
+    "y": 28
+  }
+}

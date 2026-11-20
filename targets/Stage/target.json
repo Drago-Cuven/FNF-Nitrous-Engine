@@ -1,0 +1,73 @@
+{
+  "format": "nitrobolt-target",
+  "version": 2,
+  "target": {
+    "assets": [],
+    "broadcasts": {
+      "PkP-Xp%h_U0mV2YV-+W6": "Game.Core.Setup"
+    },
+    "costumes": [
+      {
+        "dataFormat": "svg",
+        "file": "assets/backdrop1.svg",
+        "name": "backdrop1",
+        "rotationCenterX": 240,
+        "rotationCenterY": 180
+      }
+    ],
+    "currentCostume": 0,
+    "groups": {},
+    "id": "VlSGAg)?xZ}T-kt/2XV0",
+    "isStage": true,
+    "layerOrder": 0,
+    "lists": {},
+    "name": "Stage",
+    "sounds": [],
+    "tables": {},
+    "tempo": 60,
+    "textToSpeechLanguage": null,
+    "variables": {
+      "!xYysQq(HA4=9g)E*dKp": [
+        "SubState",
+        0
+      ],
+      ")aN[1g^#CTPYqahISWh}": [
+        "SubStateDB",
+        {},
+        false,
+        "Object"
+      ],
+      "1MeMDOQd`BCkMG!K!5j0": [
+        "SubState.Variables",
+        0
+      ],
+      "C?}a%9srltTF?4p5W.ap": [
+        "GameState",
+        "᯽Missing",
+        null,
+        null,
+        "#c20000"
+      ],
+      "KB@orbnH`mizZ]hEpX=A": [
+        "GameState.Variables",
+        {},
+        false,
+        "Object"
+      ],
+      "VV:@5kW$f@be`6hocb9}": [
+        "GameStateDB",
+        {},
+        false,
+        "Object",
+        "#ff0000"
+      ],
+      "`jEk@4|i[#Fk?(8x)AV.-my variable": [
+        "my variable",
+        0
+      ]
+    },
+    "videoState": "on",
+    "videoTransparency": 50,
+    "volume": 100
+  }
+}

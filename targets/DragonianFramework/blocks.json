@@ -1,0 +1,212 @@
+{
+  "format": "nitrobolt-blocks",
+  "version": 2,
+  "scripts": [
+    {
+      "id": "756206a3-0665-42eb-8741-d3426d52183d",
+      "root": "b",
+      "blocks": {
+        "b": {
+          "fields": {},
+          "inputs": {},
+          "next": "c",
+          "opcode": "event_whenflagclicked",
+          "parent": null,
+          "shadow": false,
+          "topLevel": true,
+          "x": 132,
+          "y": -859
+        },
+        "c": {
+          "fields": {},
+          "inputs": {
+            "BROADCAST_INPUT": [
+              1,
+              [
+                11,
+                "Game.Core.Setup",
+                "PkP-Xp%h_U0mV2YV-+W6"
+              ]
+            ]
+          },
+          "next": null,
+          "opcode": "event_broadcastandwait",
+          "parent": "b",
+          "shadow": false,
+          "topLevel": false
+        }
+      },
+      "comments": {}
+    },
+    {
+      "id": "88db365f-c8bf-44b2-ae77-4f95d3ee4ac4",
+      "root": "u",
+      "blocks": {
+        "u": {
+          "fields": {
+            "BROADCAST_OPTION": [
+              "Game.Core.Setup",
+              "PkP-Xp%h_U0mV2YV-+W6"
+            ]
+          },
+          "inputs": {},
+          "next": null,
+          "opcode": "event_whenbroadcastreceived",
+          "parent": null,
+          "shadow": false,
+          "topLevel": true,
+          "x": -299,
+          "y": -853
+        }
+      },
+      "comments": {}
+    },
+    {
+      "id": "8ab11f32-129f-4a93-80f5-47e4171cf36f",
+      "root": "d",
+      "blocks": {
+        "a": {
+          "fields": {},
+          "inputs": {
+            "=I!]p6F7P[7*#y9To.r3": [
+              1,
+              "e"
+            ],
+            "]b16nIcq_,^D~ssAM9q=": [
+              1,
+              "f"
+            ]
+          },
+          "mutation": {
+            "argumentdefaults": "[\"\",[],\"Option\"]",
+            "argumentdropdowns": "[]",
+            "argumentids": "[\"=I!]p6F7P[7*#y9To.r3\",\"]b16nIcq_,^D~ssAM9q=\"]",
+            "argumentnames": "[\"GS\",\"array\"]",
+            "children": [],
+            "colour": "#FFBF00",
+            "dual": "false",
+            "global": "false",
+            "output": "auto",
+            "proccode": "set ticklist of gamestate %s to %a",
+            "runinparent": "null",
+            "tagName": "mutation",
+            "warp": "true"
+          },
+          "next": null,
+          "opcode": "procedures_prototype",
+          "parent": "d",
+          "shadow": true,
+          "topLevel": false
+        },
+        "d": {
+          "fields": {},
+          "inputs": {
+            "custom_block": [
+              1,
+              "a"
+            ]
+          },
+          "next": null,
+          "opcode": "procedures_definition",
+          "parent": null,
+          "shadow": false,
+          "topLevel": true,
+          "x": -247,
+          "y": -653
+        },
+        "e": {
+          "fields": {
+            "VALUE": [
+              "GS",
+              null
+            ]
+          },
+          "inputs": {},
+          "next": null,
+          "opcode": "argument_reporter_string_number",
+          "parent": "a",
+          "shadow": true,
+          "topLevel": false
+        },
+        "f": {
+          "fields": {
+            "VALUE": [
+              "array",
+              null
+            ]
+          },
+          "inputs": {},
+          "next": null,
+          "opcode": "argument_reporter_array",
+          "parent": "a",
+          "shadow": true,
+          "topLevel": false
+        }
+      },
+      "comments": {}
+    },
+    {
+      "id": "047f4780-0a58-4fbe-83d4-23051980dcca",
+      "root": "t",
+      "blocks": {
+        "t": {
+          "fields": {
+            "VARIABLE": [
+              "GameState",
+              "C?}a%9srltTF?4p5W.ap"
+            ]
+          },
+          "inputs": {
+            "VALUE": [
+              1,
+              [
+                10,
+                ""
+              ]
+            ]
+          },
+          "next": null,
+          "opcode": "data_setvariableto",
+          "parent": null,
+          "shadow": false,
+          "topLevel": true,
+          "x": 122,
+          "y": -119
+        }
+      },
+      "comments": {}
+    },
+    {
+      "id": "558df8d6-bbc2-4c06-b127-0f43c481808e",
+      "root": "s",
+      "blocks": {
+        "s": {
+          "fields": {
+            "VARIABLE": [
+              "GameState",
+              "C?}a%9srltTF?4p5W.ap"
+            ]
+          },
+          "inputs": {
+            "VALUE": [
+              1,
+              [
+                10,
+                "᯽Missing"
+              ]
+            ]
+          },
+          "next": null,
+          "opcode": "data_setvariableto",
+          "parent": null,
+          "shadow": false,
+          "topLevel": true,
+          "x": 134,
+          "y": 74
+        }
+      },
+      "comments": {}
+    }
+  ],
+  "workspaceComments": {}
+}

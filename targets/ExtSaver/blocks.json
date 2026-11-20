@@ -1,0 +1,439 @@
+{
+  "format": "nitrobolt-blocks",
+  "version": 2,
+  "scripts": [
+    {
+      "id": "722e2375-ff4e-4062-933d-671f0eec8b41",
+      "root": "v",
+      "blocks": {
+        "v": {
+          "fields": {
+            "TYPE": [
+              "global",
+              null
+            ]
+          },
+          "inputs": {},
+          "next": null,
+          "opcode": "SPtempVars_allVars",
+          "parent": null,
+          "shadow": false,
+          "topLevel": true,
+          "x": -32,
+          "y": -686
+        }
+      },
+      "comments": {}
+    },
+    {
+      "id": "dbbf57a6-01f2-47ae-970a-be62155f64e3",
+      "root": "y",
+      "blocks": {
+        "y": {
+          "fields": {},
+          "inputs": {},
+          "next": null,
+          "opcode": "SPeventsPlus_whenStopped",
+          "parent": null,
+          "shadow": false,
+          "topLevel": true,
+          "x": 277,
+          "y": -627
+        }
+      },
+      "comments": {}
+    },
+    {
+      "id": "b05ea9d7-ec20-454b-a36d-a79e6b13374f",
+      "root": "m",
+      "blocks": {
+        "m": {
+          "fields": {},
+          "inputs": {
+            "HSV": [
+              1,
+              "n"
+            ]
+          },
+          "next": null,
+          "opcode": "penP_getPenHSV",
+          "parent": null,
+          "shadow": false,
+          "topLevel": true,
+          "x": -16,
+          "y": -568
+        },
+        "n": {
+          "fields": {
+            "hsvMenu": [
+              "color",
+              null
+            ]
+          },
+          "inputs": {},
+          "next": null,
+          "opcode": "penP_menu_hsvMenu",
+          "parent": "m",
+          "shadow": true,
+          "topLevel": false
+        }
+      },
+      "comments": {}
+    },
+    {
+      "id": "06f7728d-09d1-402e-8f20-a20339e25f51",
+      "root": "z",
+      "blocks": {
+        "z": {
+          "fields": {},
+          "inputs": {},
+          "next": null,
+          "opcode": "pen_clear",
+          "parent": null,
+          "shadow": false,
+          "topLevel": true,
+          "x": 374,
+          "y": -532
+        }
+      },
+      "comments": {}
+    },
+    {
+      "id": "6be33c90-921e-4644-a1cb-c858f246829e",
+      "root": "g",
+      "blocks": {
+        "g": {
+          "fields": {},
+          "inputs": {
+            "TARGET": [
+              1,
+              "h"
+            ]
+          },
+          "next": null,
+          "opcode": "SPlooksExpanded_getSpeech",
+          "parent": null,
+          "shadow": false,
+          "topLevel": true,
+          "x": 90,
+          "y": -469
+        },
+        "h": {
+          "fields": {
+            "TARGETS": [
+              "_myself_",
+              null
+            ]
+          },
+          "inputs": {},
+          "next": null,
+          "opcode": "SPlooksExpanded_menu_TARGETS",
+          "parent": "g",
+          "shadow": true,
+          "topLevel": false
+        }
+      },
+      "comments": {}
+    },
+    {
+      "id": "15b966cf-a87e-4fde-b1c0-ba95939d45a2",
+      "root": "k",
+      "blocks": {
+        "k": {
+          "fields": {
+            "WAIT": [
+              "continue",
+              null
+            ]
+          },
+          "inputs": {
+            "DATA": [
+              1,
+              [
+                10,
+                ""
+              ]
+            ],
+            "MESSAGES": [
+              1,
+              [
+                10,
+                "[\"message1\", \"message2\"]"
+              ]
+            ],
+            "TARGET": [
+              1,
+              "l"
+            ]
+          },
+          "next": null,
+          "opcode": "SPmessagePlus_broadcastArray",
+          "parent": null,
+          "shadow": false,
+          "topLevel": true,
+          "x": -5,
+          "y": -383
+        },
+        "l": {
+          "fields": {
+            "TARGETS": [
+              "_all_",
+              null
+            ]
+          },
+          "inputs": {},
+          "next": null,
+          "opcode": "SPmessagePlus_menu_TARGETS",
+          "parent": "k",
+          "shadow": true,
+          "topLevel": false
+        }
+      },
+      "comments": {}
+    },
+    {
+      "id": "1f300cb5-84b1-40d7-b386-30600a0e191a",
+      "root": "w",
+      "blocks": {
+        "w": {
+          "fields": {},
+          "inputs": {
+            "NAME": [
+              1,
+              [
+                10,
+                "filter-1"
+              ]
+            ]
+          },
+          "next": null,
+          "opcode": "SPspriteEffectsV2_addCanvasFilter",
+          "parent": null,
+          "shadow": false,
+          "topLevel": true,
+          "x": 34,
+          "y": -227
+        }
+      },
+      "comments": {}
+    },
+    {
+      "id": "3efca5fc-101a-45d6-8c8d-b2d2fc0c4f30",
+      "root": "A",
+      "blocks": {
+        "A": {
+          "fields": {},
+          "inputs": {},
+          "next": null,
+          "opcode": "ddeSprites_sprite",
+          "parent": null,
+          "shadow": false,
+          "topLevel": true,
+          "x": 240,
+          "y": -144
+        }
+      },
+      "comments": {}
+    },
+    {
+      "id": "72e2d77c-ca5b-47e6-9430-e8e81d234c3e",
+      "root": "x",
+      "blocks": {
+        "x": {
+          "fields": {},
+          "inputs": {
+            "COLOR": [
+              1,
+              [
+                9,
+                "#96777a"
+              ]
+            ],
+            "SVG": [
+              1,
+              [
+                10,
+                "..."
+              ]
+            ]
+          },
+          "next": null,
+          "opcode": "imgEffectsSP_applyHueEffect",
+          "parent": null,
+          "shadow": false,
+          "topLevel": true,
+          "x": -14,
+          "y": -71
+        }
+      },
+      "comments": {}
+    },
+    {
+      "id": "1bb53a58-9123-4ebc-82fb-86d450fa5b8b",
+      "root": "i",
+      "blocks": {
+        "i": {
+          "fields": {},
+          "inputs": {
+            "ARGS": [
+              1,
+              [
+                10,
+                "{ info: 1 }"
+              ]
+            ],
+            "FRAME": [
+              1,
+              "j"
+            ]
+          },
+          "next": null,
+          "opcode": "SPadvControl_newThreadAdv",
+          "parent": null,
+          "shadow": false,
+          "topLevel": true,
+          "x": 183,
+          "y": -18
+        },
+        "j": {
+          "fields": {},
+          "inputs": {},
+          "next": null,
+          "opcode": "SPadvControl_threadArgs",
+          "parent": "i",
+          "shadow": true,
+          "topLevel": false
+        }
+      },
+      "comments": {}
+    },
+    {
+      "id": "c534ce03-090d-45e3-9631-4149f38aa299",
+      "root": "B",
+      "blocks": {
+        "B": {
+          "fields": {},
+          "inputs": {},
+          "next": null,
+          "opcode": "penP_isPenDown",
+          "parent": null,
+          "shadow": false,
+          "topLevel": true,
+          "x": 97,
+          "y": 142
+        }
+      },
+      "comments": {}
+    },
+    {
+      "id": "b0afb303-ff55-445e-add9-1e8972ea0c15",
+      "root": "q",
+      "blocks": {
+        "q": {
+          "fields": {},
+          "inputs": {
+            "DATE": [
+              1,
+              [
+                10,
+                "2007-03-14 09:34:00"
+              ]
+            ],
+            "TIME_MENU": [
+              1,
+              "r"
+            ]
+          },
+          "next": null,
+          "opcode": "SPtimeCalc_calculatetimedurationfromdate",
+          "parent": null,
+          "shadow": false,
+          "topLevel": true,
+          "x": -25,
+          "y": 246
+        },
+        "r": {
+          "fields": {
+            "Time": [
+              "year",
+              null
+            ]
+          },
+          "inputs": {},
+          "next": null,
+          "opcode": "SPtimeCalc_menu_Time",
+          "parent": "q",
+          "shadow": true,
+          "topLevel": false
+        }
+      },
+      "comments": {}
+    },
+    {
+      "id": "449a3f3b-28f5-40ac-98c0-ede85a8b6f0a",
+      "root": "o",
+      "blocks": {
+        "o": {
+          "fields": {},
+          "inputs": {
+            "ARGS": [
+              1,
+              "p"
+            ]
+          },
+          "next": null,
+          "opcode": "cubesterLambda_lambda",
+          "parent": null,
+          "shadow": false,
+          "topLevel": true,
+          "x": 6,
+          "y": 332
+        },
+        "p": {
+          "fields": {},
+          "inputs": {},
+          "next": null,
+          "opcode": "cubesterLambda_lambdaArgs",
+          "parent": "o",
+          "shadow": true,
+          "topLevel": false
+        }
+      },
+      "comments": {}
+    },
+    {
+      "id": "0d53b17b-4684-4ad8-94aa-eb7ede36878f",
+      "root": "C",
+      "blocks": {
+        "C": {
+          "fields": {},
+          "inputs": {
+            "NAME": [
+              1,
+              [
+                10,
+                "MySound"
+              ]
+            ],
+            "URL": [
+              1,
+              [
+                10,
+                "https://sharkpools-extensions.vercel.app/extension-utils/TS/Resonance-Home.mp3"
+              ]
+            ]
+          },
+          "next": null,
+          "opcode": "SPtuneShark3_importURL",
+          "parent": null,
+          "shadow": false,
+          "topLevel": true,
+          "x": -29,
+          "y": 505
+        }
+      },
+      "comments": {}
+    }
+  ],
+  "workspaceComments": {}
+}

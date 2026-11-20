@@ -1,0 +1,4 @@
+project.json text eol=lf
+targets/**/target.json text eol=lf
+targets/**/blocks.json text eol=lf
+assets/** binary
